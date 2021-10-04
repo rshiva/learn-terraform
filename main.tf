@@ -1,8 +1,4 @@
-provider "aws" {
-    shared_credentials_file = "~/.aws/credentials"
-    region = "ap-south-1"
-
-}
+provider "aws" {}
 
 # resource "aws_s3_bucket" "test_s3" {
 #   bucket = "demo-21-bucket-terraform"
